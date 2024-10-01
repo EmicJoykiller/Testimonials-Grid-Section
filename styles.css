@@ -12,4 +12,88 @@
   --White: hsl(0, 0%, 100%);
   --Light-gray: hsl(0, 0%, 81%);
   --Light-grayish-blue: hsl(210, 46%, 95%);
+
+  --ff-primary: "Barlow Semi Condensed", sans-serif;
+
+  --fw-400: 500;
+  --fw-700: 600;
+
+  --fs-300: 0.6875rem;
+  --fs-400: 0.8125rem;
+  --fs-500: 1.25rem;
 }
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+  
+    background-color: var(--Light-grayish-blue);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: var(--fw-700);
+  }
+
+  .flex {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .bg-primary-400 {
+    background: var(--Moderate-violet);
+  }
+  .bg-secondary-400 {
+    background: var(--Very-dark-grayish-blue);
+  }
+  .bg-secondary-500 {
+    background: var(--Very-dark-blackish-blue);
+  }
+  
+  .bg-neutral-100 {
+    background: var(--White);
+  }
+  
+  .text-neutral-100 {
+    color: var(--White);
+  }
+  .text-secondary-400 {
+    color: var(--Very-dark-grayish-blue);
+  }
+  .border-primary-400 {
+    border: 2px solid #a775f1;
+  }
