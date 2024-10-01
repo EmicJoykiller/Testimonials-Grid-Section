@@ -119,7 +119,8 @@ body {
   }
   
   .testimonial:last-child{
-    background-color: red !important;
+    grid-column-start: 4;
+    grid-row: 1 / 3;
   }
   .testimonial.quote {
     background-image: url("./images/bg-pattern-quotation.svg");
